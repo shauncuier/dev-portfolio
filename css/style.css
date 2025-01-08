@@ -13,6 +13,11 @@
 }
 
 /* Common Style */
+.secondary-bg {
+    background-color: #FFF8F3;
+
+}
+
 .primary-text-color {
     color: #FD6E0A;
 }
@@ -20,8 +25,9 @@
 .dark-2 {
     color: #474747;
 }
-.dark-3{
-  color:   #757575;
+
+.dark-3 {
+    color: #757575;
 }
 
 .btn-primary {
@@ -36,12 +42,33 @@
     cursor: pointer;
 }
 
+.section-title {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* Nav Styles */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -65,46 +92,97 @@ nav li a {
     font-size: 20px;
 
 }
+
 /* Header */
 
-.header{
-background-image: url(../images/developer.png), url(../images/header_bg.png);
-background-repeat: no-repeat;
-background-position: top left, bottom right;
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    padding-top: 50px;
 }
 
 /* Banner Styles */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 35px 0 200px;
 }
+
 .banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
+
 .banner-title {
     font-size: 85px;
     font-weight: 800;
     margin-bottom: 20px;
 
 }
+
 .banner-description {
-   
+
     font-family: "Open Sans";
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
+    /* 166.667% */
     margin-bottom: 30px;
 }
-.banner-content{
+
+.banner-content {
     max-width: 600px;
 }
 
 .banner-profile-img {
     width: 584px;
     height: 676px;
+}
+
+/* Main */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section */
+
+.about {
+    border-radius: 10px;
+    text-align: center;
+    margin: 130px auto;
+    padding: 130px 150px;
+
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.item-description {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+
+.about-item .item-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
 }
