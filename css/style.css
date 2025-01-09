@@ -239,3 +239,118 @@ main {
     /* 175% */
     margin-top: 30px;
 }
+
+
+/* Resume */
+
+.resume-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.resume-column-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.experience-title {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+
+.experience-sub-title {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.experience-description {
+    color: var(--Dark-03, #757575);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 30px;
+}
+
+.resume-column hr {
+    margin: 30px 0;
+}
+
+.resume-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume {
+    margin-bottom: 130px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    gap: 100px;
+    padding: 130px 230px;
+}
+
+.footer-title {
+    color: var(--Dark-01, #181818);
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.footer-description {
+    color: var(--Dark-02, #474747);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 175% */
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="email"],
+footer textarea {
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #E0E0E0;
+
+    margin-bottom: 20px;
+}
+
+footer a {
+    padding-left: 10px;
+}
