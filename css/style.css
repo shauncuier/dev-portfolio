@@ -349,3 +349,9 @@ footer textarea {
     border: 1px solid #E0E0E0;
     margin-bottom: 20px;
 }
+
+
+footer .icon{
+    display: flex;
+    gap: 20px;
+}
